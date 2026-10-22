@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Portofolio Muhammad Fathan Edlin, mahasiswa Informatika dan web developer."
+    >
+
+    <meta name="theme-color" content="#090909">
+
+    <title>Portfolio | Muhammad Fathan Edlin</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+
+            <a href="#home" class="logo">MF<span>.</span></a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link" data-i18n="nav_home">Beranda</a>
+                <a href="#about" class="nav-link" data-i18n="nav_about">Tentang</a>
+                <a href="#skills" class="nav-link" data-i18n="nav_skills">Keahlian</a>
+                <a href="#projects" class="nav-link" data-i18n="nav_projects">Proyek</a>
+                <a href="#contact" class="nav-link" data-i18n="nav_contact">Kontak</a>
+            </nav>
+
+            <div class="nav-actions">
+
+                <!-- Language Switcher -->
+                <div class="language-switcher" aria-label="Pilih bahasa">
+                    <button
+                        type="button"
+                        class="language-btn active"
+                        data-lang="id"
+                        aria-label="Gunakan Bahasa Indonesia"
+                        aria-pressed="true"
+                    >
+                        ID
+                    </button>
+
+                    <span class="language-divider">/</span>
+
+                    <button
+                        type="button"
+                        class="language-btn"
+                        data-lang="en"
+                        aria-label="Switch to English"
+                        aria-pressed="false"
+                    >
+                        EN
+                    </button>
+                </div>
+
+                <a href="#contact" class="nav-cta" data-i18n="nav_cta">
+                    Ayo Terhubung ↗
+                </a>
+
+                <button
+                    class="menu-toggle"
+                    id="menu-toggle"
+                    type="button"
+                    aria-label="Buka menu navigasi"
+                    aria-expanded="false"
+                    aria-controls="nav-menu"
+                >
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero section" id="home">
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <div class="hero-label">
+                        <span class="status-dot"></span>
+                        <span data-i18n="hero_label">MAHASISWA INFORMATIKA</span>
+                    </div>
+
+                    <h1 data-i18n="hero_title">
+                        Membangun pengalaman digital yang berbeda.
+                    </h1>
+
+                    <p class="hero-description" data-i18n="hero_description">
+                        Halo, saya Muhammad Fathan Edlin. Saya tertarik pada
+                        pengembangan web dan teknologi, serta senang membangun
+                        pengalaman digital yang sederhana, fungsional, dan menarik.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span data-i18n="hero_projects">Lihat Proyek</span>
+                            <span>↗</span>
+                        </a>
+
+                        <a href="#contact" class="btn btn-secondary" data-i18n="hero_contact">
+                            Hubungi Saya
+                        </a>
+                    </div>
+
+                    <a
+                        href="assets/documents/cv.pdf"
+                        class="download-cv"
+                        download
+                    >
+                        <span data-i18n="hero_cv">Unduh CV</span>
+                        <span>↓</span>
+                    </a>
+
+                    <div class="social-links">
+                        <a
+                            href="https://github.com/mhdfathan2006-creator"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >GitHub ↗</a>
+
+                        <a
+                            href="https://www.linkedin.com/in/muhammad-fathan-edlin-b9125b378"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >LinkedIn ↗</a>
+
+                        <a
+                            href="https://www.instagram.com/masfathann_/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >Instagram ↗</a>
+
+                        <a
+                            href="https://www.tiktok.com/@damnnn_30"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >TikTok ↗</a>
+
+                        <a
+                            href="https://www.facebook.com/share/1FQhA3WJJQ/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >Facebook ↗</a>
+                    </div>
+
+                </div>
+
+                <div class="hero-visual">
+
+                    <div class="hero-glow"></div>
+
+                    <div class="profile-card">
+
+                        <div class="profile-card-top">
+                            <span>PORTFOLIO</span>
+                            <span>2026</span>
+                        </div>
+
+                        <div class="profile-image-wrapper">
+                            <img
+                                src="assets/images/Fotoprofil.jpeg"
+                                alt="Foto profil Muhammad Fathan Edlin"
+                                class="profile-image"
+                            >
+                        </div>
+
+                        <div class="profile-card-bottom">
+                            <div>
+                                <h2>Muhammad Fathan Edlin</h2>
+                                <p data-i18n="profile_role">
+                                    Mahasiswa Informatika · Web Developer
+                                </p>
+                            </div>
+
+                            <span class="profile-arrow">↗</span>
+                        </div>
+
+                        <div class="profile-card-tag" data-i18n="profile_tag">
+                            PENGEMBANG WEB
+                        </div>
+
+                    </div>
+
+                    <div class="floating-badge badge-top">
+                        <span class="badge-icon">✳</span>
+                        <span data-i18n="badge_creative">Kreatif & Inovatif</span>
+                    </div>
+
+                    <div class="floating-badge badge-bottom">
+                        <span class="badge-icon">⌘</span>
+                        <span>HTML · CSS · JavaScript</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section about" id="about">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label" data-i18n="about_label">
+                        TENTANG SAYA
+                    </span>
+
+                    <h2 data-i18n="about_title">
+                        Belajar, berkembang, dan menciptakan sesuatu yang berarti.
+                    </h2>
+                </div>
+
+                <div class="about-content">
+                    <p data-i18n="about_paragraph">
+                        Saya adalah mahasiswa Informatika yang memiliki
+                        ketertarikan pada pemrograman dan pengembangan web.
+                        Saya terus belajar membangun website yang responsif,
+                        mudah digunakan, dan memiliki tampilan menarik.
+                        Bagi saya, setiap proyek merupakan kesempatan untuk
+                        meningkatkan kemampuan dan mencoba hal baru.
+                    </p>
+
+                    <div class="about-stats">
+
+                        <div class="stat-item">
+                            <span class="stat-number">01</span>
+                            <span class="stat-label" data-i18n="stat_one">
+                                Terus Belajar
+                            </span>
+                        </div>
+
+                        <div class="stat-item">
+                            <span class="stat-number">02</span>
+                            <span class="stat-label" data-i18n="stat_two">
+                                Berpikir Kreatif
+                            </span>
+                        </div>
+
+                        <div class="stat-item">
+                            <span class="stat-number">03</span>
+                            <span class="stat-label" data-i18n="stat_three">
+                                Berkembang Bersama Teknologi
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section skills" id="skills">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label" data-i18n="skills_label">
+                        KEAHLIAN
+                    </span>
+
+                    <h2 data-i18n="skills_title">
+                        Teknologi yang sedang saya pelajari.
+                    </h2>
+
+                    <p data-i18n="skills_description">
+                        Fondasi yang saya gunakan untuk membangun proyek web.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <div class="skill-number">01</div>
+                        <div class="skill-icon">&lt;/&gt;</div>
+                        <h3>HTML</h3>
+                        <p data-i18n="skill_html">
+                            Membangun struktur halaman web yang terorganisasi.
+                        </p>
+                        <div class="skill-line">
+                            <span style="width: 80%"></span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-number">02</div>
+                        <div class="skill-icon">✳</div>
+                        <h3>CSS</h3>
+                        <p data-i18n="skill_css">
+                            Membuat tampilan web yang menarik dan responsif.
+                        </p>
+                        <div class="skill-line">
+                            <span style="width: 75%"></span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-number">03</div>
+                        <div class="skill-icon">JS</div>
+                        <h3>JavaScript</h3>
+                        <p data-i18n="skill_js">
+                            Menambahkan interaksi dan perilaku dinamis.
+                        </p>
+                        <div class="skill-line">
+                            <span style="width: 55%"></span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-number">04</div>
+                        <div class="skill-icon">⌘</div>
+                        <h3>PHP & MySQL</h3>
+                        <p data-i18n="skill_php">
+                            Mempelajari logika backend dan pengelolaan basis data.
+                        </p>
+                        <div class="skill-line">
+                            <span style="width: 50%"></span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section projects" id="projects">
+            <div class="container">
+
+                <div class="section-heading projects-heading">
+                    <div>
+                        <span class="section-label" data-i18n="projects_label">
+                            PROYEK PILIHAN
+                        </span>
+
+                        <h2 data-i18n="projects_title">
+                            Beberapa hal yang saya bangun.
+                        </h2>
+                    </div>
+
+                    <span class="project-count" data-i18n="projects_count">
+                        02 PROYEK
+                    </span>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+                        <a
+                            href="#contact"
+                            class="project-image-link"
+                            aria-label="Diskusikan proyek Point of Sales"
+                        >
+                            <div class="project-image-wrapper">
+                                <img
+                                    src="assets/images/project-pos.png"
+                                    alt="Tampilan proyek Point of Sales"
+                                    loading="lazy"
+                                >
+                                <span class="project-image-arrow">↗</span>
+                            </div>
+                        </a>
+
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span data-i18n="project_type_webapp">APLIKASI WEB</span>
+                                <span>01 / 02</span>
+                            </div>
+
+                            <h3>Point of Sales System</h3>
+
+                            <p data-i18n="project_pos_description">
+                                Aplikasi kasir sederhana untuk mengelola produk,
+                                transaksi penjualan, dan struk pembayaran.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <a
+                            href="#contact"
+                            class="project-image-link"
+                            aria-label="Diskusikan proyek website pribadi"
+                        >
+                            <div class="project-image-wrapper">
+                                <img
+                                    src="assets/images/project-web.png"
+                                    alt="Tampilan proyek website pribadi"
+                                    loading="lazy"
+                                >
+                                <span class="project-image-arrow">↗</span>
+                            </div>
+                        </a>
+
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span data-i18n="project_type_website">WEBSITE</span>
+                                <span>02 / 02</span>
+                            </div>
+
+                            <h3>Personal Website</h3>
+
+                            <p data-i18n="project_web_description">
+                                Website pribadi sebagai ruang untuk menampilkan
+                                profil, kemampuan, dan perjalanan belajar saya.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Responsive</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section contact" id="contact">
+            <div class="container">
+
+                <div class="contact-container">
+
+                    <div class="contact-content">
+                        <span class="section-label" data-i18n="contact_label">
+                            HUBUNGI SAYA
+                        </span>
+
+                        <h2 data-i18n="contact_title">
+                            Punya ide menarik? Mari kita bicarakan.
+                        </h2>
+
+                        <p data-i18n="contact_description">
+                            Saya terbuka untuk berdiskusi, berbagi ide,
+                            dan belajar bersama mengenai pengembangan web
+                            dan teknologi.
+                        </p>
+
+                        <a
+                            href="mailto:mhdfathan2006@gmail.com"
+                            class="btn btn-primary"
+                        >
+                            <span data-i18n="contact_button">Kirim Email</span>
+                            <span>↗</span>
+                        </a>
+                    </div>
+
+                    <div class="contact-decoration">
+                        <span class="contact-symbol">MF<span>.</span></span>
+                        <span class="contact-decoration-text">
+                            LET'S BUILD SOMETHING GREAT
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+
+            <p>
+                © <span id="current-year">2026</span>
+                Muhammad Fathan Edlin.
+                <span data-i18n="footer_text">Dibuat dengan sepenuh hati.</span>
+            </p>
+
+            <a href="#home" class="back-to-top">
+                <span data-i18n="back_to_top">Kembali ke atas</span>
+                ↑
+            </a>
+
+        </div>
+    </footer>
+
+    <!-- Floating Back To Top -->
+    <button
+        class="floating-top"
+        id="back-to-top"
+        type="button"
+        aria-label="Kembali ke atas"
+    >
+        ↑
+    </button>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
